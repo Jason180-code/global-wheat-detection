@@ -1,0 +1,36 @@
+{
+  "images": 10,
+  "weights": [
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold0/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold1/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold2/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold3/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold4/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold5/best.pt",
+    "/kaggle/input/datasets/beijietransient/gwhd-7fold/gwhd-7fold/fold6/best.pt"
+  ],
+  "model_weights": [
+    0.813383,
+    0.887415,
+    1.087413,
+    0.68934,
+    1.34656,
+    1.222788,
+    0.953101
+  ],
+  "imgsz": 1024,
+  "pre_conf": 0.03,
+  "final_conf": 0.22,
+  "wbf_iou": 0.55,
+  "nms_iou": 0.7,
+  "use_tta": true,
+  "infer_batch": 2,
+  "raw_boxes_before_wbf": 7221,
+  "fused_boxes_after_threshold": 870,
+  "mean_boxes_per_image": 87.0,
+  "min_boxes_per_image": 68,
+  "max_boxes_per_image": 121,
+  "validation_errors": [],
+  "submission_csv": "/kaggle/working/submission.csv",
+  "elapsed_minutes": 4.96
+}
